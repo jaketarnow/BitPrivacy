@@ -4,8 +4,8 @@ from stem.control import Controller
 from splinter import Browser
 
 proxyIP = "127.0.0.1"
-proxyPort = 9150
-
+proxyPort = 9050
+#http://www.thedurkweb.com/automated-anonymous-interactions-with-websites-using-python-and-tor/
 proxy_settings = {"network.proxy.type":1,
 	"network.proxy.ssl": proxyIP,
 	"network.proxy.ssl_port": proxyPort,
@@ -18,7 +18,7 @@ proxy_settings = {"network.proxy.type":1,
 browser = Browser('firefox', profile_preferences=proxy_settings)
 
 for x in range(50):
-	browser.visit("http://www.icanhazip.com")
+	browser.visit("http://checkip.amazonaws.com")
 	switchIP()
 	time.sleep(5)
 
