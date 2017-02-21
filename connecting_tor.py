@@ -23,7 +23,7 @@ for x in range(50):
 	time.sleep(5)
 
 def switchIP():
-	with Controller.from_port(proxyPort) as controller:
+	with Controller.from_port(port=proxyPort) as controller:
 		controller.authenticate()
 		controller.signal(Signal.NEWNYM)
 		# NEWNYM used to send to Tor connection

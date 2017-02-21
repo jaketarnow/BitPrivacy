@@ -719,3 +719,42 @@
 1487634360629	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
 1487634427223	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/51.0.1/20170125094131/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2016.4.0/default/default/update.xml
 1487634437476	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1487634519596	DeferredSave.extensions.json	DEBUG	Save changes
+1487634519597	DeferredSave.extensions.json	DEBUG	Starting timer
+1487634529621	DeferredSave.extensions.json	DEBUG	Starting write
+1487634529626	DeferredSave.extensions.json	DEBUG	Write succeeded
+1487634994222	addons.manager	INFO	Skipping background update check
+1487635465584	DeferredSave.extensions.json	DEBUG	Save changes
+1487635465586	DeferredSave.extensions.json	DEBUG	Starting timer
+1487635465613	DeferredSave.extensions.json	DEBUG	Starting write
+1487635465617	DeferredSave.extensions.json	DEBUG	Write succeeded
+1487637557189	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.0
+1487637557193	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1487637557193	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.7
+1487637557194	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 1.0
+1487637557364	addons.manager	DEBUG	shutdown
+1487637557364	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1487637557364	addons.xpi	DEBUG	shutdown
+1487637557365	addons.xpi-utils	DEBUG	shutdown
+1487637557365	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1487637557366	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1487637557367	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1487637557368	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1487637557369	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1487637557372	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1487637557376	addons.manager	DEBUG	Async provider shutdown done
+1487637584578	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.0
+1487637584578	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1487637584578	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.7
+1487637584579	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 1.0
+1487637584728	addons.manager	DEBUG	shutdown
+1487637584728	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1487637584729	addons.xpi	DEBUG	shutdown
+1487637584729	addons.xpi-utils	DEBUG	shutdown
+1487637584729	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1487637584730	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1487637584732	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1487637584732	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1487637584734	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1487637584737	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1487637584740	addons.manager	DEBUG	Async provider shutdown done
