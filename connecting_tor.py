@@ -18,7 +18,7 @@ proxy_settings = {"network.proxy.type":1,
 browser = Browser('firefox', profile_preferences=proxy_settings)
 
 for x in range(50):
-	browser.visit("http://checkip.amazonaws.com")
+	browser.visit("https://check.torproject.org/")
 	switchIP()
 	time.sleep(5)
 
